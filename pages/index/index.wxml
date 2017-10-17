@@ -28,14 +28,21 @@
       </swiper-item>
     </block>
   </swiper>
-    <!--轮播功能组  -->
-  <swiper class="swiperButton" autoplay circular>
+  <!--轮播功能组  -->
+  <swiper class="swiperButton" bindchange="buttonChange">
     <block wx:for="{{buttonGroup}}">
       <swiper-item>
-      <block wx:for="{{item}}">
-      {{item}}
-      </block>
+        <view class="itemButtonGroup">
+          <view wx:for="{{item}}" class="itemButton">
+            <image src="{{item.img}}"></image>
+            <text>{{item.text}}</text>
+          </view>
+        </view>
       </swiper-item>
     </block>
   </swiper>
+  <view class="buttomGroup">
+    <view class="buttonBottom {{buttonIndex ? '' : 'active'}}"></view>
+    <view class="buttonBottom {{buttonIndex ? 'active' : ''}}"></view>
+  </view>
 </view>
