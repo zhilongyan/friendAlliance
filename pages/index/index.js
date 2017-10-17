@@ -91,7 +91,49 @@ Page({
         }
       ]
     ],
-    buttonIndex : 0
+    buttonIndex : 0,
+    commodity  : [
+      {
+        name : '【俞兆林】 厚度适中 法兰绒四件套珊瑚绒冬季法莱绒加绒毛毯保暖被套卡通床套床品',
+        price : 35.9,
+        num : 7327,
+        ready : [
+          '/images/index/headImg.jpg',
+          '/images/index/headImg.jpg'
+        ],
+        img : '/images/index/bed.jpg'
+      },
+      {
+        name: '【俞兆林】 厚度适中 法兰绒四件套珊瑚绒冬季法莱绒加绒毛毯保暖被套卡通床套床品',
+        price: 35.9,
+        num: 7327,
+        ready: [
+          '/images/index/headImg.jpg',
+          '/images/index/headImg.jpg'
+        ],
+        img: '/images/index/bed.jpg'
+      },
+      {
+        name: '【俞兆林】 厚度适中 法兰绒四件套珊瑚绒冬季法莱绒加绒毛毯保暖被套卡通床套床品',
+        price: 35.9,
+        num: 7327,
+        ready: [
+          '/images/index/headImg.jpg',
+          '/images/index/headImg.jpg'
+        ],
+        img: '/images/index/bed.jpg'
+      },
+      {
+        name: '【俞兆林】 厚度适中 法兰绒四件套珊瑚绒冬季法莱绒加绒毛毯保暖被套卡通床套床品',
+        price: 35.9,
+        num: 7327,
+        ready: [
+          '/images/index/headImg.jpg',
+          '/images/index/headImg.jpg'
+        ],
+        img: '/images/index/bed.jpg'
+      }
+    ]
   },
   onLoad : function(){
   },

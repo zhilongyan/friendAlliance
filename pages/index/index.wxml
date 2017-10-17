@@ -41,8 +41,35 @@
       </swiper-item>
     </block>
   </swiper>
+  <!--轮播功能组下面的那个横条  -->
   <view class="buttomGroup">
     <view class="buttonBottom {{buttonIndex ? '' : 'active'}}"></view>
     <view class="buttonBottom {{buttonIndex ? 'active' : ''}}"></view>
+  </view>
+  <!--广告  -->
+  <view class="advertisement">
+    <image src="/images/index/ad.jpg"></image>
+  </view>
+  <!--拼单商品  -->
+  <view class="commodity">
+    <view wx:for="{{commodity}}" class="commodityItem">
+      <image src="{{item.img}}" class="introduceImg"></image>
+      <text class="blod">{{item.name}}</text>
+      <!--拼单商品底部-->
+      <view class="bottom">
+      <!--数字部分  -->
+        <view class="num">
+          <text class="red">￥{{item.price}}</text>
+          <text class="gray">已拼{{item.num}}件</text>
+        </view>
+        <!--已拼商品用户头像加按钮部分  -->
+        <view class="bottomButton">
+          <block wx:for="{{item.ready}}">
+            <image src="{{item}}"></image>
+          </block>
+          <button>去拼单 ></button>
+        </view>
+      </view>
+    </view>
   </view>
 </view>

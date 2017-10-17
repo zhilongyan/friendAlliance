@@ -81,12 +81,14 @@
   font-size: 25rpx;
   margin: 10rpx 0 0 0;
 }
-.buttomGroup{
+
+.buttomGroup {
   display: flex;
   justify-content: center;
   position: relative;
-  top: -20rpx
+  top: -20rpx;
 }
+
 .buttonBottom {
   width: 100rpx;
   border: 1rpx solid #eee;
@@ -94,4 +96,77 @@
 
 .active {
   border: 1rpx solid red;
+}
+
+.advertisement {
+  width: 100%;
+  height: 200rpx;
+  margin: 5rpx 5rpx 0;
+}
+
+.advertisement image {
+  width: 100%;
+  height: 200rpx;
+}
+
+.commodity {
+  margin: 5rpx 5rpx 20rpx;
+}
+
+.commodityItem {
+  display: flex;
+  flex-direction: column;
+  margin: 10rpx 0;
+  background-color: #fff;
+}
+
+.commodityItem text {
+  margin: 0 10rpx;
+}
+
+.introduceImg {
+  width: 100%;
+  height: 400rpx;
+}
+
+.commodityItem .bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5rpx 0 10rpx;
+}
+
+.commodityItem .bottom image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.commodityItem .bottom .bottomButton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commodityItem .bottom button {
+  width: 200rpx;
+  height: 60rpx;
+  font-size: 25rpx;
+  background-color: red;
+  color: #fff;
+  margin: 0 10rpx;
+}
+
+.blod {
+  font-weight: bold;
+  color: #000;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
 }
