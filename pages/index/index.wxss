@@ -1,0 +1,36 @@
+/**index.wxss**/
+.titleScroll{
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 50rpx;
+}
+
+.titleScroll text{
+  width: 100rpx;
+  text-align: center;
+  display: inline-block;
+}
+.titleScroll{
+  width: 100%;
+  background-color: #fff;
+}
+.scroll-view_H{
+  white-space: nowrap;
+}
+.scroll-view-item{
+  height: 300rpx;
+}
+.scroll-view-item_H{
+  display: inline-block;
+  width: 100rpx;
+  height: 50rpx;
+  text-align: center;
+  color: #000
+}
+
+
+.swiper-item{
+  display: block;
+  height: 150px;
+}
+  

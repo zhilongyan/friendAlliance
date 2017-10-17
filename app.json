@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/lists/lists",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundTextStyle": "white",
+    "navigationBarBackgroundColor": "red",
+    "navigationBarTitleText": "友 盟",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "backgroundColor": "#fff",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "font-size": "32rpx",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "优惠",
+        "iconPath": "images/discount2.png",
+        "selectedIconPath": "images/discount1.png"
+      },
+      {
+        "pagePath": "pages/lists/lists",
+        "text": "列表",
+        "iconPath": "images/list2.png",
+        "selectedIconPath": "images/list1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me2.png",
+        "selectedIconPath": "images/me1.png"
+      }
+    ]
+  }
+}
