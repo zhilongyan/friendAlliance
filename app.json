@@ -20,20 +20,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "优惠",
-        "iconPath": "images/discount2.png",
-        "selectedIconPath": "images/discount1.png"
+        "iconPath": "images/bottom/discount2.png",
+        "selectedIconPath": "images/bottom/discount1.png"
       },
       {
         "pagePath": "pages/lists/lists",
         "text": "列表",
-        "iconPath": "images/list2.png",
-        "selectedIconPath": "images/list1.png"
+        "iconPath": "images/bottom/list2.png",
+        "selectedIconPath": "images/bottom/list1.png"
       },
       {
         "pagePath": "pages/me/me",
         "text": "我的",
-        "iconPath": "images/me2.png",
-        "selectedIconPath": "images/me1.png"
+        "iconPath": "images/bottom/me2.png",
+        "selectedIconPath": "images/bottom/me1.png"
       }
     ]
   }
